@@ -27,8 +27,8 @@
         <geometry>
           <mesh filename="package://bebop_gazebo/meshes/bebop_model.stl"/>
         </geometry>
-        <material name="blue">
-          <color rgba="0 0.4 0.6 1"/>
+        <material name="black">
+          <color rgba="0 0 0 1"/>
         </material>
       </visual>
 
@@ -39,6 +39,10 @@
         </geometry>
       </collision>
     </link>
+
+    <gazebo reference="base_link">
+      <material>Gazebo/Black</material>
+    </gazebo>
 
     <link name="camera_base_link"></link>
     <link name="camera_pan_link"></link>
