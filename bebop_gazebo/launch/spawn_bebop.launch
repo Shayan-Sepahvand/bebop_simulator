@@ -4,9 +4,9 @@
   <arg name="name" default="bebop"/>
   <arg name="model" default="$(find bebop_gazebo)/urdf/bebop.gazebo.xacro"/>
 
-  <arg name="x" default="0.0"/>
-  <arg name="y" default="0.0"/>
-  <arg name="z" default="0.3"/>
+  <arg name="x" default="-0.5"/>
+  <arg name="y" default="-1.0"/>
+  <arg name="z" default="1.0"/>
 
   <arg name="world_frame" default="world"/> <!-- This should actually be "/world". See https://github.com/ros-simulation/gazebo_ros_pkgs/pull/324 -->
   <arg name="base_link_frame" default="base_link"/>
